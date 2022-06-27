@@ -1,3 +1,5 @@
+# 用于公司项目，基础官方nacos2.0.0修改，添加MySQL配置文件密码解密功能；修复各个依赖漏洞（基于中信扫描出来的漏洞）
+
 
 <img src="doc/Nacos_Logo.png" width="50%" syt height="50%" />
 
