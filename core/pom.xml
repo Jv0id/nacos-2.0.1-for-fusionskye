@@ -58,12 +58,12 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>nacos-consistency</artifactId>
         </dependency>
-        
+
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>nacos-auth</artifactId>
         </dependency>
-        
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -102,6 +102,7 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-test</artifactId>
+            <version>5.6.6</version>
             <scope>test</scope>
         </dependency>
 
@@ -124,7 +125,7 @@
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
         </dependency>
- 
+
         <!-- JRaft dependency start -->
         <dependency>
             <groupId>com.alipay.sofa</groupId>
@@ -174,13 +175,13 @@
             <artifactId>micrometer-registry-elastic</artifactId>
         </dependency>
         <!--   micrometer end    -->
-        
+
         <dependency>
             <groupId>io.grpc</groupId>
             <artifactId>protoc-gen-grpc-java</artifactId>
             <type>pom</type>
         </dependency>
-        
+
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
