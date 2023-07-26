@@ -60,7 +60,9 @@ On the **Windows** platform, run the following command to start server with stan
 startup.cmd -m standalone
 ```
 
-build jar: `mvn -Prelease-nacos -Dmaven.test.skip=true clean install -U`
+build jar: 
+`find ./ -name "*.iml" -exec rm -rf {} \;`
+`mvn -Prelease-nacos -Dmaven.test.skip=true clean install -U`
 
 For more details, see [quick-start.](https://nacos.io/en-us/docs/quick-start.html)
 
